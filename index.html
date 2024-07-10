@@ -7,11 +7,10 @@
     <title>Color Scheme Generator</title>
   </head>
   <body>
-    <div id="container">
-      <h1>Color Scheme Generator</h1>
-      <form>
+    <div class="container">
+      <form id="color-form">
         <!-- <label for="base-color">Choose a base color:</label> -->
-        <input type="color" id=base-color name="base-color"/>
+        <input type="color" id="base-color" name="base-color" />
         <!-- <label for="scheme-selection">Choose a color scheme:</label> -->
         <select name="selection" id="scheme-selection">
           <option value="monochrome">Monochrome</option>
@@ -24,7 +23,7 @@
         </select>
         <button type="submit">Get color scheme</button>
       </form>
-      <div id="color-scheme"></div>
+      <div id="color-scheme-container"></div>
     </div>
     <script src="index.js"></script>
   </body>
